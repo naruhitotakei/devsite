@@ -6,10 +6,10 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "deploy":"gh-pages -d build",
+    "deploy":"gh-pages -d dist",
     "predeploy": "npm run build"
   },
-  "homepage": "https://wholespace.github.io/devsite",
+  "homepage": "https://wholespace.github.io/devsite/",
   "dependencies": {
     "core-js": "^3.6.5",
     "vue": "^2.6.11",
